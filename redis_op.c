@@ -1038,7 +1038,7 @@ END:
  * @param value string 类型的value
  *
  * @returns
- *          0 succ, -1 fail
+ *          0 succ, -1 fail   test
  */
 /* -------------------------------------------*/
 int rop_set_string(redisContext *conn, char *key, char *value)
